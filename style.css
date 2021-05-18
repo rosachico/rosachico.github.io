@@ -1,0 +1,44 @@
+body {
+    background-color: #F29C9F;
+    color: #7D4A2C;
+    max-width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    margin: 0 0 1em 0;
+}
+h3 {
+    margin: 0 0 0.5em 0;
+}
+p {
+    margin: 0 0 1em 0;
+}
+ul {
+    padding: 0 1em;
+    margin: 0;
+}
+a {
+    color: #005D92;
+}
+.container {
+    display: flex;
+    flex-direction: column;   
+}
+.header {
+    padding: 0 1em;
+}
+.content {
+    background-color: #FFFFFF;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 1.5em;
+}
+.content-top {
+    margin: 0 auto;
+}
+.top-icon {
+    border-radius: 50%;
+}

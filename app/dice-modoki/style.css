@@ -1,0 +1,40 @@
+body {
+    background-color: #F29C9F;
+    color: #7D4A2C;
+    max-width: 95%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3em;
+}
+p {
+    font-size: 1em;
+}
+button {
+    font-size: 2em;
+    padding: 0.3em;
+    margin-bottom: 16px;   
+}
+.container {
+    display: flex;
+    flex-direction: column;   
+}
+.content {
+    background-color: #FFFFFF;
+    padding: 0.5em;
+    margin: 1em auto;
+    border-radius: 1.5em;
+}
+.content-top {
+    margin: 1em auto;
+}
+#main {
+    padding: 1em;
+    margin: 0.5em auto;
+    border-radius: 1.5em;
+    text-align: center;
+}
+#result {
+    font-size: 12em;
+    margin: 0;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" buffered-rendering="static" viewBox="0,0,128,128" shape-rendering="crispEdges">
+<desc>
+This file was created by http://www.h2.dion.ne.jp/~defghi/img2svg3/dot2svg3.htm at Wed May 12 2021 20:47:24 GMT+0900 (日本標準時)
+path count:9
+</desc>
+<defs>
+<g id="dots">
+<path d="m0,0h128v128h-48v-8h16v-8h-8v-16h-8v-16h16v-8h8v16h16v-16h-8v-16h-8v-32h-8v-8h-8v-8h-48v8h-8v8h-8v32h-8v16h-8v16h16v-16h8v8h16v16h-8v16h-8v8h16v8h-48z" fill="#fd0"/>
+<path d="m40,8h48v8h8v8h8v32h8v16h8v16h-8v-16h-16v8h-8v-16h16v-8h-8v-8h-8v-8h-16v-8h-16v8h-16v8h-8v8h-8v8h16v16h-8v-8h-16v16h-8v-16h8v-16h8v-32h8v-8h8zm17,8h-1v8h16v-8zm-16,8h-1v8h16v-8zm32,0h-1v8h16v-8zm-25,96h8v8h-8zm24,0h8v8h-8z" fill="#f9b"/>
+<path d="m56,16h16v8h16v8h-16v-8h-16v8h-16v-8h16zm-24,32h8v16h-16v-8h8zm56,0h8v8h8v8h-16zm-48,24h8v8h-8zm40,0h8v8h-8zm-64,8h8v8h-8zm88,0h8v8h-8zm-48,40h16v8h-16z" fill="#f58"/>
+<path d="m56,32h16v8h16v8h-48v-8h16zm0,40h16v8h-16zm-8,16h8v8h-8zm24,0h8v8h-8z" fill="#fda"/>
+<path d="m40,48h8v16h8v-16h16v16h8v-16h8v24h-8v8h-8v-8h-16v8h-8v-8h-8zm8,48h8v8h-8zm24,0h8v8h-8z" fill="#fec"/>
+<path d="m48,48h8v16h-8zm24,0h8v16h-8z" fill="#66f"/>
+<path d="m16,72h8v8h-8zm88,0h8v8h-8zm-64,24h8v8h8v-8h16v8h8v-8h8v16h-48z" fill="#fb0"/>
+<path d="m48,80h8v8h16v-8h8v8h-8v8h-16v-8h-8zm-16,32h64v8h-64z" fill="#fa0"/>
+<path d="m56,80h16v8h-16z" fill="#fff"/>
+</g>
+</defs>
+<use xlink:href="#dots"/>
+</svg>
