@@ -8,12 +8,15 @@ h1 {
     font-size: 3em;
 }
 h2 {
-    margin: 0 0 1em 0;
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
 }
 h3 {
+    font-size: 1.5em;
     margin: 0 0 0.5em 0;
 }
 p {
+    font-size: 1em;
     margin: 0 0 1em 0;
 }
 ul {
@@ -23,22 +26,17 @@ ul {
 a {
     color: #005D92;
 }
-.container {
-    display: flex;
-    flex-direction: column;   
-}
-.header {
+footer {
     padding: 0 1em;
 }
-.content {
+.container {
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
+}
+.content {
     padding: 1em;
-    margin-bottom: 2em;
-    border-radius: 1.5em;
 }
-.content-top {
-    margin: 0 auto;
-}
-.top-icon {
-    border-radius: 50%;
+.content img {
+    max-width: 100%;
 }
