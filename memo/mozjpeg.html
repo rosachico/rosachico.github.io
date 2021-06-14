@@ -25,8 +25,56 @@
     <div class="container">
       <div class="content">
         <h2>cjpeg.exe</h2>
-        <code>cjpeg -outfile output.jpg input.jpg</code>
-        <p>入力(input)に対応しているのはJPEG、PNGファイル。</p>
+        <p><code>cjpeg -outfile output.jpg input.jpg</code><br>
+          入力(input)に対応しているのはJPEG、PNGファイル。
+        </p>
+        <h3>画質とサイズの検証</h3>
+        <p>mozjpegで使用したコードは以下の通りです。<br>
+        <code>cjpeg -quality n -outfile output.jpg input.jpg</code><br>
+        -quality の部分には0～100の数字を入れてください。
+      </p>
+        <p>アニメ調(色が少ない)の画像から。</p>
+        <p><img src="img/mozjpeg-anime1.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質100: 542KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質100: 542KB)
+        </p>
+        <p><img src="img/mozjpeg-anime2.jpg" alt="mozjpegで作成した画像(画質100: 469KB)"><br>
+          mozjpegで作成した画像(画質100: 469KB)
+        </p>
+        <p><img src="img/mozjpeg-anime3.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質70: 261KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質70: 261KB)
+        </p>
+        <p><img src="img/mozjpeg-anime4.jpg" alt="mozjpegで作成した画像(画質70: 78KB)"><br>
+          mozjpegで作成した画像(画質70: 78KB)<br>
+        </p>
+        <p><img src="img/mozjpeg-anime5.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質30: 108KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質30: 108KB)
+        </p>
+        <p><img src="img/mozjpeg-anime6.jpg" alt="mozjpegで作成した画像(画質30: 45KB)"><br>
+          mozjpegで作成した画像(画質30: 45KB)<br>
+        </p>
+        <p>mozjpegの画質30はノイズがかなり目立つ結果になってしまいました。バランスを考えると画質70くらいまでが良さそうです。<br>
+          Adobe Photoshop Elements12で作成した画像と比べると、ぼけています。
+        </p>
+        <p>続いては写真(色が多い画像)。</p>
+        <p><img src="img/mozjpeg-photo1.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質100: 980KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質100: 980KB)
+        </p>
+        <p><img src="img/mozjpeg-photo2.jpg" alt="mozjpegで作成した画像(画質100: 993KB)"><br>
+          mozjpegで作成した画像(画質100: 993KB)
+        </p>
+        <p><img src="img/mozjpeg-photo3.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質70: 401KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質70: 401KB)
+        </p>
+        <p><img src="img/mozjpeg-photo4.jpg" alt="mozjpegで作成した画像(画質70: 151KB)"><br>
+          mozjpegで作成した画像(画質70: 151KB)
+        </p>
+        <p><img src="img/mozjpeg-photo5.jpg" alt="Adobe Photoshop Elements12で作成した画像(画質30: 175KB)"><br>
+          Adobe Photoshop Elements12で作成した画像(画質30: 175KB)
+        </p>
+        <p><img src="img/mozjpeg-photo6.jpg" alt="mozjpegで作成した画像(画質30: 69KB)"><br>
+          mozjpegで作成した画像(画質30: 69KB)
+        </p>
+        <p>mozjpegの画質30は写真でもノイズがかなり目立つ結果になってしまいました。アニメ調の画像と同じく、画質70くらいまでが良さそうです。</p>
       </div>
     </div>
   </body>
